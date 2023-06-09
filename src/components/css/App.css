@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+.logo{
+  width: 200px;
+}
+hr{
+  border-top: 1px solid lightgray;
+}
+.content{
+  overflow: hidden;
+  height: 100px;
+}
+h5:hover{
+  color: red;
+}
+
+.body-heading{
+  color: white;
+  background: rgb(255, 0, 0);
+  /* background: linear-gradient(90deg, rgb(3, 238, 167) 0%, rgb(2, 251, 97) 42%, rgba(217,222,220,1) 100%); */
+  width: 100px;
+  text-align: center;
+  
+  font-weight: bold;
+}
+.nav-link:hover{
+  background: rgba(135, 206, 250, 0.61);
+  color: rgb(255, 0, 0);
+}
