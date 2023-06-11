@@ -32,7 +32,7 @@ function NewsBody() {
         <Nav/>
 <div class="container text-center">
   <div class="continer-fluid row align-items-center">
-    <div class="col-md rounded border m-1 ">
+    <div class="col-md rounded border m-1 overflow-hidden  " style={{height:"1600px"}} >
       <h4   className="body-heading p-2 m-0 mx-o " style={{width:"200px"}} >Trending news</h4>
      <div class="row">
      
@@ -49,7 +49,7 @@ function NewsBody() {
     </div> 
      </div>
 
-     <div class="col-md-3  h-auto">
+     <div class="col-md-3 m-3  ">
         <Ads/> 
         <Durg/>
       
@@ -58,9 +58,16 @@ function NewsBody() {
     
   </div>
 </div>
-<div class="container text-center">
-  <div class="continer-fluid row align-items-center">
-    <div class="col-md  border m-1 ">
+<div class="container text-center d-flex align-items-center ">
+  
+
+  <div class="col-md-3 m-3  ">
+        <Ads/> 
+        <Durg/>
+      
+      </div> 
+      <div class="continer-fluid row align-items-center">
+    <div class="col-md  border m-1 rounded overflow-hidden " style={{height:"980px"}}  >
       <h4 class="" className="body-heading p-2"  style={{width:"200px"}}  > sports News </h4>
      <div class="row ">
      
@@ -87,6 +94,7 @@ function NewsBody() {
     </div> */}
     
   </div>
+
 </div>
 {/* <NewsBody/> */}
       </div>
