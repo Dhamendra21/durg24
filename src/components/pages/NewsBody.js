@@ -1,7 +1,8 @@
 
 
 // import  "../News"
-import Sportsnews from "../news catagoryes/Sportsnews";
+// import Sportsnews from "../news catagoryes/Sportsnews";
+import Sportsnews from "./Sportsnews";
 import SportsCard from "./Sportscard";
 import News from "../news catagoryes/TrendingNews";
 import TrendingCard from "./TrendingCards"
@@ -61,37 +62,26 @@ function NewsBody() {
 <div class="container text-center d-flex align-items-center ">
   
 
-  <div class="col-md-3 m-3  ">
+      <div class="continer-fluid row align-items-center">
+      <div class="col-md-3 m-3  ">
         <Ads/> 
         <Durg/>
       
       </div> 
-      <div class="continer-fluid row align-items-center">
-    <div class="col-md  border m-1 rounded overflow-hidden " style={{height:"980px"}}  >
+    <div class="col border m-1 rounded overflow-hidden " style={{height:"950px"}}  >
       <h4 class="" className="body-heading p-2"  style={{width:"200px"}}  > sports News </h4>
-     <div class="row ">
      
- 
-      {
-        
-        Sportsnews.map((Sportsnews)=>{
-        //  console.log("sports news", Sportsnews)
-          return(<SportsCard img={Sportsnews.image} headline={Sportsnews.title} description={Sportsnews.description} /> )
-        })
-      } 
-     {/* <SportsCard/> */}
+     
+     
+      <Sportsnews/>
       
+     
         
-    </div> 
-     </div>
 
-    {/* <div class="col-md-3 rounded border h-auto"> 
-      <div class="border bg-secondary"> 
-        <h4 class="text-light">skip  Ad  </h4>
-        <img src=" https://images.unsplash.com/photo-1521747116042-5a810fda9664" class="w-100"  />
-            
-      </div>
-    </div> */}
+     </div>
+          
+  
+    
     
   </div>
 
